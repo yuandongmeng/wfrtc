@@ -1,0 +1,10 @@
+./build*
+.obj
+.user
+新建文件夹
+.qm
+build*
+out
+.rar
+.zip
+.7z

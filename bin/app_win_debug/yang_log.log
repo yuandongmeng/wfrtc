@@ -1,0 +1,40 @@
+
+url===webrtc://172.18.1.42/live/livestream
+netType==2,server=172.18.1.42,port=1988,app=live,stream=livestream
+
+
+render: sample==48000,channle==2,nBlockAlign==4,blockSize==480
+bufersize=1126wincaecapture thread is now registered with MMCSS (taskIndex=398)render thread is now registered with MMCSS (taskIndex
+startRtc,port==24639
+candidate:ip==172.18.1.42,type=host,port=16786
+candidate:ip==172.18.1.42,type=host,port=16786
+candidate:ip==172.18.1.42,type=host,port=16786
+remote audiossrc==87838297,remote videossrc==87838298,audio sample==48000,audio channel==2
+remoteIp=172.18.1.42,port=16786
+ udp server is starting,localPort=24639
+DTLS: Reset the timer for ServerHello
+dtls handshake is sucess
+
+decode:width==640,height==480,fps==10
+
+videoBuffer:width==640,height==480,fps==10
+[11:40:02] Yang ERROR: avcodec_send_packet AVERROR_INVALIDDATA
+
+28:00,00,00,01,67,42,c0,1f,8c,8d,40,50,1e,d0,0f,08,84,6a,01,00,00,00,05,68,ce,3c,80,00,42,29,0f,0d,80,69,b2,42,dd,55,0d,0f,a3,1a,52,54,21,08,1f,35,da,d1,d1,4c,97,c1,a9,3d,ca,75,05,91,cd,34,28,6f,8a,96,36,3a,3b,ca,bd,10,c3,c1,f2,b0,d6,98,de,ac,7a,11,60,41,f6,a5,81,a6,4e,9a,6e,cf,0f,a5,e8,21,d5,1d,12,5e,[11:40:02] Yang ERROR: decode video fail..
+
+webrtc stop
+Yang INFO: dtls info method=write,retcode=256,type==warning,desc==CN
+:f314b3091875h81g\r\na=ssrc:225575533 msid:- i195j378-4vy8-k0wa-6007-61ay47xc17s2\r\na=ssrc:225575533 mslabel:-\r\na=ssrc:225575533 label:i195j378-4vy8-k0wa-6007-61ay47xc17s2\r\nm=video 9 UDP/TLS/RTP/SAVPF 125 114\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:1z6c\r\na=ice-pwd:7s22is55515510905261ou704jbq7m50\r\na=fingerprint:sha-256 2E:58:C9:06:5A:D7:2D:D6:8D:B9:93:B6:57:74:B5:5C:8D:81:86:E8:C8:CA:D0:79:23:1B:A6:6B:09:3A:76:9F\r\na=setup:actpass\r\na=mid:1\r\na=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=recvonly\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:125 H264/90000\r\na=rtcp-fb:125 transport-cc\r\na=rtcp-fb:125 nack\r\na=rtcp-fb:125 nack pli\r\na=fmtp:125 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:114 red/90000\r\na=ssrc:225575534 cname:f314b3091875h81g\r\na=ssrc:225575534 msid:- kk6432wn-2zp0-60d9-5138-gat6h2570w8d\r\na=ssrc:225575534 mslabel:-\r\na=ssrc:225575534 label:kk6432wn-2zp0-60d9-5138-gat6h2570w8d\r\n"
+
+remoteIp=172.18.1.42,port=0
+ udp server is starting,localPort=16786
+sendkey.frametype=1
+
+dtls handshake is sucess
+
+sendkey.frametype=1
+
+sendkey.frametype=1
+Yang INFO: dtls info method=read,retcode=256,type==warning,desc==CN
+
+webrtc disconnect
